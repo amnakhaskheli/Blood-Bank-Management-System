@@ -1,6 +1,6 @@
 🩸 Blood Bank Management System (C# Windows Forms)
 
-A desktop-based Blood Bank Management System developed using C# Windows Forms and Microsoft SQL Server. The application helps manage donor records, blood inventory, and user authentication.
+My first major C# desktop project, independently developed during my 2nd semester using C# Windows Forms and Microsoft SQL Server. The application helps manage donor records, blood inventory, and user authentication.
 
 📌 Features
 
