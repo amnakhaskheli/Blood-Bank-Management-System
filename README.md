@@ -6,10 +6,12 @@ My first major C# desktop project, independently developed during my 2nd semeste
 📌 Features
 
 🔐 User Authentication
+
 - Login system for authorized users.
 
 
 👤 Donor Management
+
 - Add new donor records.
 - Store donor information such as:
   - Name
@@ -26,12 +28,14 @@ My first major C# desktop project, independently developed during my 2nd semeste
 
 
 🩸 Blood Inventory
+
 - Manage blood stock.
 - Increase or decrease blood stock.
 - View current blood stock.
 
 
 🛠️ Technologies Used
+
 - Language: C#
 - Framework: .NET Framework / Windows Forms
 - Database: Microsoft SQL Server
@@ -40,6 +44,7 @@ My first major C# desktop project, independently developed during my 2nd semeste
 
 
 🗄️ Database
+
 The project uses Microsoft SQL Server for storing application data.
 
 A SQL database script is included in the "Database" folder:
@@ -48,6 +53,7 @@ Database/
 └── SmartBloodBankSystem.sql
 
 The SQL script contains the database structure and dummy/sample data required for the project.
+
 
 ▶️ How to Run
 
@@ -58,7 +64,9 @@ The SQL script contains the database structure and dummy/sample data required fo
 5. Build and run the application.
 
 📂 Project Type
+
 Desktop Application
 
 👩‍💻💻Developed By:
+
 Amna Khaskheli
