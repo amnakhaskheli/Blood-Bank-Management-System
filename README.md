@@ -1,15 +1,15 @@
 🩸 Blood Bank Management System (C# Windows Forms)
 
-My first major C# desktop project, independently developed during my 2nd semester using C# Windows Forms and Microsoft SQL Server. The application helps manage donor records, blood inventory, and user authentication.
+My first major C# desktop project, independently developed during my 2nd semester using C# Windows Forms and Microsoft SQL Server. The application helps manage donor records (all detail, location, quantity of Blood), blood inventory, and user authentication.
+
 
 📌 Features
 
 🔐 User Authentication
-
 - Login system for authorized users.
 
-👤 Donor Management
 
+👤 Donor Management
 - Add new donor records.
 - Store donor information such as:
   - Name
@@ -24,22 +24,22 @@ My first major C# desktop project, independently developed during my 2nd semeste
 - View donor records.
 - Delete donor records.
 
-🩸 Blood Inventory
 
+🩸 Blood Inventory
 - Manage blood stock.
 - Increase or decrease blood stock.
 - View current blood stock.
 
-🛠️ Technologies Used
 
+🛠️ Technologies Used
 - Language: C#
 - Framework: .NET Framework / Windows Forms
 - Database: Microsoft SQL Server
 - Database Tool: SQL Server Management Studio (SSMS)
 - IDE: Visual Studio
 
-🗄️ Database
 
+🗄️ Database
 The project uses Microsoft SQL Server for storing application data.
 
 A SQL database script is included in the "Database" folder:
@@ -58,9 +58,7 @@ The SQL script contains the database structure and dummy/sample data required fo
 5. Build and run the application.
 
 📂 Project Type
-
 Desktop Application
 
-👩‍💻 Developed By
-
-Amna
+👩‍💻💻Developed By:
+Amna Khaskheli
