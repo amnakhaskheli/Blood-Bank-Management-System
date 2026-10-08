@@ -120,8 +120,8 @@ namespace Blood_bank_system_project__window_form_
                 else
                 {
                     // ---------------- INSERT NEW DONOR ----------------
-                    string query = @"INSERT INTO newDonor(did, dname, fname, dob, mobile, gender, email, bloodgroup, city, daddress)
-                                     VALUES(@did,@dname,@fname,@dob,@mobile,@gender,@email,@bloodgroup,@city,@daddress)";
+                    string query = @"INSERT INTO newDonor(dname, fname, dob, mobile, gender, email, bloodgroup, city, daddress)
+                                     VALUES(@dname,@fname,@dob,@mobile,@gender,@email,@bloodgroup,@city,@daddress)";
 
                     SqlCommand cmd = new SqlCommand(query, con);
                     cmd.Parameters.AddWithValue("@dname", textName.Text);
@@ -177,6 +177,21 @@ namespace Blood_bank_system_project__window_form_
         }
 
         private void AddNewDonor_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textGender_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnReset_Click_1(object sender, EventArgs e)
         {
 
         }

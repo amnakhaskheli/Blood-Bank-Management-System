@@ -40,9 +40,22 @@ namespace Blood_bank_system_project__window_form_
                 DataSet ds = fn.getData(query);
 
                 if (ds != null && ds.Tables.Count > 0)
+                {
                     dataGridView1.DataSource = ds.Tables[0];
+
+                    
+                    dataGridView1.Columns["SNo"].Visible = true;
+
+                   
+                    for (int i = 0; i < dataGridView1.Rows.Count; i++)
+                    {
+                        dataGridView1.Rows[i].Cells["SNo"].Value = i + 1;
+                    }
+                }
                 else
+                {
                     dataGridView1.DataSource = null;
+                }
             }
             catch (Exception ex)
             {

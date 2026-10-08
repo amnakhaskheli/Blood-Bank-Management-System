@@ -54,7 +54,7 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.button1.Location = new System.Drawing.Point(841, 9);
+            this.button1.Location = new System.Drawing.Point(851, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(24, 24);
             this.button1.TabIndex = 0;
@@ -74,7 +74,7 @@
             this.logoutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(877, 41);
+            this.menuStrip1.Size = new System.Drawing.Size(877, 59);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -87,7 +87,7 @@
             this.allDetailsToolStripMenuItem});
             this.donorToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("donorToolStripMenuItem.Image")));
             this.donorToolStripMenuItem.Name = "donorToolStripMenuItem";
-            this.donorToolStripMenuItem.Size = new System.Drawing.Size(68, 37);
+            this.donorToolStripMenuItem.Size = new System.Drawing.Size(68, 55);
             this.donorToolStripMenuItem.Text = "Donor";
             // 
             // addNewDonorToolStripMenuItem
@@ -121,14 +121,14 @@
             this.bloodGroupToolStripMenuItem});
             this.searchBloodDonorToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("searchBloodDonorToolStripMenuItem.Image")));
             this.searchBloodDonorToolStripMenuItem.Name = "searchBloodDonorToolStripMenuItem";
-            this.searchBloodDonorToolStripMenuItem.Size = new System.Drawing.Size(140, 37);
+            this.searchBloodDonorToolStripMenuItem.Size = new System.Drawing.Size(140, 55);
             this.searchBloodDonorToolStripMenuItem.Text = "Search Blood Donor";
             // 
             // locationToolStripMenuItem
             // 
             this.locationToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("locationToolStripMenuItem.Image")));
             this.locationToolStripMenuItem.Name = "locationToolStripMenuItem";
-            this.locationToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.locationToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.locationToolStripMenuItem.Text = "Location ";
             this.locationToolStripMenuItem.Click += new System.EventHandler(this.locationToolStripMenuItem_Click);
             // 
@@ -136,7 +136,7 @@
             // 
             this.bloodGroupToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("bloodGroupToolStripMenuItem.Image")));
             this.bloodGroupToolStripMenuItem.Name = "bloodGroupToolStripMenuItem";
-            this.bloodGroupToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.bloodGroupToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.bloodGroupToolStripMenuItem.Text = "Blood Group";
             this.bloodGroupToolStripMenuItem.Click += new System.EventHandler(this.bloodGroupToolStripMenuItem_Click);
             // 
@@ -148,7 +148,7 @@
             this.detailsToolStripMenuItem});
             this.stockToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("stockToolStripMenuItem.Image")));
             this.stockToolStripMenuItem.Name = "stockToolStripMenuItem";
-            this.stockToolStripMenuItem.Size = new System.Drawing.Size(64, 37);
+            this.stockToolStripMenuItem.Size = new System.Drawing.Size(64, 55);
             this.stockToolStripMenuItem.Text = "Stock";
             // 
             // increaseToolStripMenuItem
@@ -181,7 +181,7 @@
             this.deleteDonorToolStripMenuItem1});
             this.deleteDonorToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("deleteDonorToolStripMenuItem.Image")));
             this.deleteDonorToolStripMenuItem.Name = "deleteDonorToolStripMenuItem";
-            this.deleteDonorToolStripMenuItem.Size = new System.Drawing.Size(104, 37);
+            this.deleteDonorToolStripMenuItem.Size = new System.Drawing.Size(104, 55);
             this.deleteDonorToolStripMenuItem.Text = "Delete Donor";
             // 
             // deleteDonorToolStripMenuItem1
@@ -196,7 +196,7 @@
             // 
             this.logoutToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("logoutToolStripMenuItem.Image")));
             this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
-            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(73, 37);
+            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(73, 55);
             this.logoutToolStripMenuItem.Text = "Logout";
             this.logoutToolStripMenuItem.Click += new System.EventHandler(this.logoutToolStripMenuItem_Click);
             // 

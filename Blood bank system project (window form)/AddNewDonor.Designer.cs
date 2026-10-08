@@ -17,7 +17,6 @@
 
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddNewDonor));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -49,11 +48,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(195, 9);
+            this.label1.Font = new System.Drawing.Font("Garamond", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label1.Location = new System.Drawing.Point(212, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(264, 31);
+            this.label1.Size = new System.Drawing.Size(258, 30);
             this.label1.TabIndex = 0;
             this.label1.Text = "ADD NEW DONOR";
             // 
@@ -150,50 +149,76 @@
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label11.Location = new System.Drawing.Point(47, 82);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(109, 18);
+            this.label11.Size = new System.Drawing.Size(111, 20);
             this.label11.TabIndex = 10;
             this.label11.Text = "New DonorID";
             // 
             // textName
             // 
+            this.textName.BackColor = System.Drawing.Color.White;
+            this.textName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textName.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.textName.Location = new System.Drawing.Point(188, 140);
             this.textName.Name = "textName";
-            this.textName.Size = new System.Drawing.Size(125, 20);
+            this.textName.Size = new System.Drawing.Size(125, 25);
             this.textName.TabIndex = 0;
+            this.textName.TextChanged += new System.EventHandler(this.textName_TextChanged);
             // 
             // textFname
             // 
+            this.textFname.BackColor = System.Drawing.Color.White;
+            this.textFname.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textFname.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.textFname.ForeColor = System.Drawing.Color.Black;
             this.textFname.Location = new System.Drawing.Point(188, 192);
             this.textFname.Name = "textFname";
-            this.textFname.Size = new System.Drawing.Size(125, 20);
+            this.textFname.Size = new System.Drawing.Size(125, 25);
             this.textFname.TabIndex = 1;
             // 
             // textMobile
             // 
+            this.textMobile.BackColor = System.Drawing.Color.White;
+            this.textMobile.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textMobile.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.textMobile.ForeColor = System.Drawing.Color.Black;
             this.textMobile.Location = new System.Drawing.Point(188, 292);
             this.textMobile.Name = "textMobile";
-            this.textMobile.Size = new System.Drawing.Size(125, 20);
+            this.textMobile.Size = new System.Drawing.Size(125, 25);
             this.textMobile.TabIndex = 3;
             // 
             // textEmail
             // 
+            this.textEmail.BackColor = System.Drawing.Color.White;
+            this.textEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textEmail.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.textEmail.ForeColor = System.Drawing.Color.Black;
             this.textEmail.Location = new System.Drawing.Point(502, 138);
             this.textEmail.Name = "textEmail";
-            this.textEmail.Size = new System.Drawing.Size(138, 20);
+            this.textEmail.Size = new System.Drawing.Size(138, 25);
             this.textEmail.TabIndex = 4;
             // 
             // textCity
             // 
+            this.textCity.BackColor = System.Drawing.Color.White;
+            this.textCity.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textCity.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.textCity.ForeColor = System.Drawing.Color.Black;
             this.textCity.Location = new System.Drawing.Point(502, 238);
             this.textCity.Name = "textCity";
-            this.textCity.Size = new System.Drawing.Size(138, 20);
+            this.textCity.Size = new System.Drawing.Size(138, 25);
             this.textCity.TabIndex = 5;
             // 
             // textAddress
             // 
+            this.textAddress.BackColor = System.Drawing.Color.White;
+            this.textAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textAddress.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.textAddress.ForeColor = System.Drawing.Color.Black;
             this.textAddress.Location = new System.Drawing.Point(502, 292);
             this.textAddress.Name = "textAddress";
             this.textAddress.Size = new System.Drawing.Size(138, 110);
@@ -202,6 +227,8 @@
             // 
             // textDOB
             // 
+            this.textDOB.CalendarTitleBackColor = System.Drawing.Color.White;
+            this.textDOB.CalendarTitleForeColor = System.Drawing.Color.Black;
             this.textDOB.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.textDOB.Location = new System.Drawing.Point(188, 238);
             this.textDOB.Name = "textDOB";
@@ -210,19 +237,26 @@
             // 
             // textGender
             // 
+            this.textGender.BackColor = System.Drawing.Color.White;
             this.textGender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.textGender.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.textGender.ForeColor = System.Drawing.Color.Black;
             this.textGender.Items.AddRange(new object[] {
             "Male",
             "Female",
             "Other"});
             this.textGender.Location = new System.Drawing.Point(188, 350);
             this.textGender.Name = "textGender";
-            this.textGender.Size = new System.Drawing.Size(125, 21);
+            this.textGender.Size = new System.Drawing.Size(125, 25);
             this.textGender.TabIndex = 15;
+            this.textGender.SelectedIndexChanged += new System.EventHandler(this.textGender_SelectedIndexChanged);
             // 
             // textBloodgroup
             // 
+            this.textBloodgroup.BackColor = System.Drawing.Color.White;
             this.textBloodgroup.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.textBloodgroup.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.textBloodgroup.ForeColor = System.Drawing.Color.Black;
             this.textBloodgroup.Items.AddRange(new object[] {
             "A+",
             "A-",
@@ -234,13 +268,14 @@
             "O-"});
             this.textBloodgroup.Location = new System.Drawing.Point(502, 194);
             this.textBloodgroup.Name = "textBloodgroup";
-            this.textBloodgroup.Size = new System.Drawing.Size(138, 21);
+            this.textBloodgroup.Size = new System.Drawing.Size(138, 25);
             this.textBloodgroup.TabIndex = 17;
             // 
             // LabelNewID
             // 
             this.LabelNewID.AutoSize = true;
             this.LabelNewID.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelNewID.ForeColor = System.Drawing.Color.Maroon;
             this.LabelNewID.Location = new System.Drawing.Point(169, 82);
             this.LabelNewID.Name = "LabelNewID";
             this.LabelNewID.Size = new System.Drawing.Size(17, 18);
@@ -249,48 +284,64 @@
             // 
             // btnSave
             // 
+            this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(220, 445);
+            this.btnSave.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnSave.Location = new System.Drawing.Point(237, 443);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(118, 40);
+            this.btnSave.Size = new System.Drawing.Size(107, 40);
             this.btnSave.TabIndex = 21;
             this.btnSave.Text = "Save";
+            this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnReset
             // 
+            this.btnReset.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReset.Location = new System.Drawing.Point(100, 445);
+            this.btnReset.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnReset.Location = new System.Drawing.Point(100, 443);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(80, 40);
+            this.btnReset.Size = new System.Drawing.Size(107, 40);
             this.btnReset.TabIndex = 22;
             this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = false;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click_1);
             // 
             // btnClose
             // 
+            this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.Location = new System.Drawing.Point(510, 445);
+            this.btnClose.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnClose.Location = new System.Drawing.Point(502, 443);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(80, 40);
+            this.btnClose.Size = new System.Drawing.Size(107, 40);
             this.btnClose.TabIndex = 23;
             this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnUpdate
             // 
+            this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Location = new System.Drawing.Point(371, 445);
+            this.btnUpdate.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnUpdate.Location = new System.Drawing.Point(371, 443);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(108, 40);
+            this.btnUpdate.Size = new System.Drawing.Size(107, 40);
             this.btnUpdate.TabIndex = 24;
             this.btnUpdate.Text = "Update";
-            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.UseVisualStyleBackColor = false;
             // 
             // AddNewDonor
             // 
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(700, 500);
+            this.ClientSize = new System.Drawing.Size(705, 495);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
