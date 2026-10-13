@@ -1,72 +1,88 @@
-🩸 Blood Bank Management System (C# Windows Forms)
+🩸 Blood Bank Management System
 
-My first major C# desktop project, independently developed during my 2nd semester using C# Windows Forms and Microsoft SQL Server. The application helps manage donor records (all detail, location, quantity of Blood), blood inventory, and user authentication.
+💻 C# Windows Forms | Microsoft SQL Server
 
+My first major C# desktop project, independently developed during my 2nd semester of BS Information Technology (BSIT).
 
-📌 Features
+The Blood Bank Management System is designed to simplify donor record management and blood inventory tracking through a desktop application. This project helped me apply my programming and database concepts to a practical, real-world problem.
+
+---
+
+✨ Key Features
 
 🔐 User Authentication
 
-- Login system for authorized users.
-
+- Secure login system for authorized users.
 
 👤 Donor Management
 
 - Add new donor records.
-- Store donor information such as:
-  - Name
-  - Father's Name
-  - Date of Birth
-  - Contact
-  - Gender
-  - Blood Group
-  - Address
-- Update existing donor records.
+- Store donor details, including name, father's name, date of birth, contact, gender, blood group, and address.
+- Update existing donor information.
 - Search donors by blood group or address.
-- View donor records.
-- Delete donor records.
+- View and delete donor records.
 
+🩸 Blood Inventory Management
 
-🩸 Blood Inventory
+- View available blood stock.
+- Increase or decrease blood quantities.
+- Manage blood inventory records.
 
-- Manage blood stock.
-- Increase or decrease blood stock.
-- View current blood stock.
-
+---
 
 🛠️ Technologies Used
 
-- Language: C#
+- Programming Language: C#
 - Framework: .NET Framework / Windows Forms
 - Database: Microsoft SQL Server
-- Database Tool: SQL Server Management Studio (SSMS)
+- Database Management Tool: SQL Server Management Studio (SSMS)
 - IDE: Visual Studio
 
+---
 
-🗄️ Database
+🗄️ Database Setup
 
-The project uses Microsoft SQL Server for storing application data.
+The application uses Microsoft SQL Server to store donor records and blood inventory data.
 
-A SQL database script is included in the "Database" folder:
+The database script is included in the repository:
 
 Database/
 └── SmartBloodBankSystem.sql
 
-The SQL script contains the database structure and dummy/sample data required for the project.
+The script contains the database structure and sample data required for setup.
 
+---
 
-▶️ How to Run
+▶️ How to Run the Project
 
 1. Open the SQL script from the "Database" folder in SSMS.
-2. Execute the script to create the required database and tables.
+2. Execute the script to create the database and tables.
 3. Open the project solution (".sln") in Visual Studio.
-4. Check the SQL Server connection string in the project.
+4. Verify and update the SQL Server connection string if needed.
 5. Build and run the application.
 
-📂 Project Type
+---
 
-Desktop Application
+📚 What I Learned
 
-👩‍💻💻Developed By:
+Through this project, I gained practical experience with:
 
-Amna Khaskheli
+- C# programming and Windows Forms development.
+- Connecting a desktop application to SQL Server.
+- Database operations and CRUD functionality.
+- Designing forms and managing application data.
+- Applying programming concepts to a real-world project.
+
+---
+
+📌 Project Information
+
+- Project Type: Desktop Application
+- Academic Semester: 2nd Semester
+- Developer: Amna Khaskheli
+
+---
+
+👩‍💻 Developed by Amna Khaskheli
+
+Building my programming skills through practical projects and continuous learning.
